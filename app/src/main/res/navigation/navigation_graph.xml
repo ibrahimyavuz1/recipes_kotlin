@@ -22,5 +22,12 @@
         <action
             android:id="@+id/action_recipeFragment_to_recipesListFragment"
             app:destination="@id/recipesListFragment" />
+        <argument
+            android:name="naviData"
+            app:argType="string" />
+        <argument
+            android:name="id"
+            app:argType="integer"
+            android:defaultValue="0" />
     </fragment>
 </navigation>
