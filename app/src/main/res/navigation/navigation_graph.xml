@@ -29,5 +29,8 @@
             android:name="id"
             app:argType="integer"
             android:defaultValue="0" />
+        <action
+            android:id="@+id/action_recipeFragment_self"
+            app:destination="@id/recipeFragment" />
     </fragment>
 </navigation>
